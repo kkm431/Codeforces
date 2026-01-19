@@ -1,0 +1,1 @@
+import java.util.Scanner; public class A_Boy_or_Girl {    public static void main(String[] args){        String str;        Scanner sc= new Scanner(System.in);         str = sc.nextLine();         boolean isFemale = str.chars().distinct().count() % 2 == 0;        System.out.println(isFemale ? "CHAT WITH HER!" : "IGNORE HIM!");        sc.close();     }}
